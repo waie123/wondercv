@@ -17,7 +17,13 @@
 }
 .icon-weibo:before { content: "\e602"; }
 .icon-website:before { content: "\e600"; }
+.icon-book:before { content: "\e606"; }
 .icon-address:before { content: "\e605"; }
+.icon-historyzhuanhuan:before { content: "\e60c"; }
 .icon-phone:before { content: "\e601"; }
+.icon-iconevaluation:before { content: "\e608"; }
+.icon-skills:before { content: "\e609"; }
 .icon-email:before { content: "\e603"; }
 .icon-github:before { content: "\e604"; }
+.icon-apps:before { content: "\e60a"; }
+.icon-target:before { content: "\e60b"; }
