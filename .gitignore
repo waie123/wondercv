@@ -1,0 +1,11 @@
+.*.sw[po]
+*~*
+tags
+
+node_modules/
+bower_components/
+hooks/
+npm-debug.log
+
+*.jse
+*.htmle

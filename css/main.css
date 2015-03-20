@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */ url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../iconfont/iconfont.svg#iconfont') format('svg');
+  
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.text-energized {
+  color: #B80D0D;
+}
+#overview {
+  background: #ECF9E4;
+}
+#overview h1 {
+  color: #B80D0D;
+  font-weight: bold;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+#overview h1 small {
+  font-size: 75%;
+}
+#overview img {
+  max-height: 200px;
+  max-width: 100%;
+  opacity: 0.95;
+}
+#overview .profile .profile-item {
+  float: left;
+  width: 40%;
+}
