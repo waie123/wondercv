@@ -34,5 +34,8 @@
 }
 #overview .profile .profile-item {
   float: left;
-  width: 40%;
+  width: 48%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
