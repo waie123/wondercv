@@ -45,5 +45,5 @@ gulp.task('bootstrap-less', function() {
 
 gulp.task('watch', function() {
     gulp.watch(paths.less, ['less']);
-    gulp.watch(paths.bootstrap.less, ['bootstrap-less']);
+    gulp.watch(paths.bootstrap.less, ['bootstrap-less', 'less']);
 });
