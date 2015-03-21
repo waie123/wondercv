@@ -1,22 +1,36 @@
 @import "../bootstrap/less/bootstrap.less";
 @import "iconfont";
 
+body {
+    padding: 0 0 20px;
+}
+
 .text-energized {
-    color: #B80D0D;
+    color: @brand-energized;
 }
 
 section {
     &:nth-child(n+2) {
         padding-top: 15px;
     }
+    h1, h2 {
+        .iconfont {
+            vertical-align: text-top;
+        }
+    }
     h1 {
         .text-primary();
         font-size: 24px;
         .iconfont {
             //font-size: 1.2em;
-            vertical-align: text-top;
             .text-energized();
         }
+    }
+
+    h2 {
+        font-size: 1.2em;
+        color: @brand-primary;
+        margin: 0 0 10px;
     }
 }
 
@@ -25,8 +39,11 @@ section {
 }
 
 #intention,
+#self-evaluation,
 #skills,
-#experience
+#experience,
+#projects,
+#additional
 {
     h1 {
         margin-top: 0;
@@ -66,11 +83,25 @@ section {
 #skills {
     .skill-list {
         list-style: none;
+        padding: 0;
 
         li {
             display: inline-block;
             width: 25%;
             line-height: 1.6;
+        }
+    }
+}
+
+#projects {
+    .project-item {
+        &:not(:last-child) {
+            margin: 0 0 10px 0;
+            border-bottom: 1px solid #DEDEDE;
+        }
+
+        p {
+            margin-bottom: 5px;
         }
     }
 }

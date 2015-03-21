@@ -16,6 +16,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-weibo:before { content: "\e602"; }
+.icon-zlfundlogo:before { content: "\e607"; }
 .icon-website:before { content: "\e600"; }
 .icon-book:before { content: "\e606"; }
 .icon-address:before { content: "\e605"; }
@@ -23,7 +24,9 @@
 .icon-phone:before { content: "\e601"; }
 .icon-iconevaluation:before { content: "\e608"; }
 .icon-skills:before { content: "\e609"; }
+.icon-other:before { content: "\e60e"; }
 .icon-email:before { content: "\e603"; }
 .icon-github:before { content: "\e604"; }
 .icon-apps:before { content: "\e60a"; }
 .icon-target:before { content: "\e60b"; }
+.icon-pointright:before { content: "\e60d"; }

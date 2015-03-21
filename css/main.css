@@ -6562,11 +6562,18 @@ button.close {
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  padding: 0 0 20px;
+}
 .text-energized {
-  color: #B80D0D;
+  color: #b80d0d;
 }
 section:nth-child(n+2) {
   padding-top: 15px;
+}
+section h1 .iconfont,
+section h2 .iconfont {
+  vertical-align: text-top;
 }
 section h1 {
   color: #367930;
@@ -6576,15 +6583,22 @@ asection h1:hover {
   color: #265422;
 }
 section h1 .iconfont {
-  vertical-align: text-top;
-  color: #B80D0D;
+  color: #b80d0d;
+}
+section h2 {
+  font-size: 1.2em;
+  color: #367930;
+  margin: 0 0 10px;
 }
 .container {
   max-width: 960px;
 }
 #intention h1,
+#self-evaluation h1,
 #skills h1,
-#experience h1 {
+#experience h1,
+#projects h1,
+#additional h1 {
   margin-top: 0;
   padding-top: 0;
 }
@@ -6592,7 +6606,7 @@ section h1 .iconfont {
   background: #ECF9E4;
 }
 #overview h1 {
-  color: #B80D0D;
+  color: #b80d0d;
   font-weight: bold;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
@@ -6613,9 +6627,17 @@ section h1 .iconfont {
 }
 #skills .skill-list {
   list-style: none;
+  padding: 0;
 }
 #skills .skill-list li {
   display: inline-block;
   width: 25%;
   line-height: 1.6;
+}
+#projects .project-item:not(:last-child) {
+  margin: 0 0 10px 0;
+  border-bottom: 1px solid #DEDEDE;
+}
+#projects .project-item p {
+  margin-bottom: 5px;
 }
