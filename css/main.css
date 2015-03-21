@@ -6577,7 +6577,7 @@ section h2 .iconfont {
 }
 section h1 {
   color: #2c9f15;
-  font-size: 24px;
+  font-size: 20px;
 }
 asection h1:hover {
   color: #20720f;
@@ -6609,11 +6609,15 @@ section h2 {
   color: #b80d0d;
   font-weight: bold;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 24px;
 }
 #overview h1 small {
-  font-size: 75%;
+  font-size: 80%;
 }
-#overview img {
+#overview .photo-container {
+  min-height: 200px;
+}
+#overview .photo-container img {
   max-height: 200px;
   max-width: 100%;
   opacity: 0.95;
