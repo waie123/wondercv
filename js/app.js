@@ -33,7 +33,15 @@ $(function() {
         $(this).addClass('text-energized').css({
             'opacity': grade / 10,
             'font-size': (10 * (1 + grade/10)) + 'px',
-            'font-weight': 100 * grade
+            'font-weight': (function(){
+                if(grade > 9) {
+                    return 9;
+                } else if(grade < 1) {
+                    return 1;
+                } else {
+                    return grade;
+                }
+            })() * 100
         });
     });
 });
