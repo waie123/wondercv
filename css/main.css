@@ -6645,8 +6645,10 @@ section h2 {
 }
 #skills .skill-list li {
   display: inline-block;
-  width: 25%;
+  width: 32%;
   line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 #projects .project-item:not(:last-child) {
   margin: 0 0 15px 0;
