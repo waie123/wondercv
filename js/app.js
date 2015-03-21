@@ -1,3 +1,5 @@
+new WOW().init();
+
 $(function() {
     // photo slides
     var curPtr = -1;
