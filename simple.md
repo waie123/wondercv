@@ -123,25 +123,13 @@ PIS是我在经过长期的业务开发后，根据需要提炼出来的一个�
 
 ## 技能清单
 
-- Web后端：Python/Django/Tornado/Django-REST-framework
-- Web前端：HTML/JavaScript/CSS/Vue/React
-- 前端工具：Sass/Less/PostCSS/Babel/NPM/Gulp/Webpack/Rollup
-- 数据库相关：PostgreSQL/MongoDB/SQLAlchemy/MongoEngine
+- Web后端：Python/Django(MVC)/Tornado/Django-REST-framework
+- Web前端：HTML(HTML5)/JavaScript(ES6)/CSS(CSS3)/Ajax/JSON/Backbone/Vue/React
+- 前端工具：Sass/Less/PostCSS/Babel/NodeJS/NPM/Gulp/Webpack/Rollup
+- 数据库相关：PostgreSQL/MongoDB(NoSQL)/SQLAlchemy(ORM)/MongoEngine
 - 版本管理：Git/GitLab
 - 系统部署：Fabric/Nginx/OpenResty/Systemd/Supervisor/uWSGI
-- 其它：Prerender/Syncthing
-
-### 关键字
-
-Linux/Debian/Ubuntu, Shell, Systemd, Supervisor,
-Python, Django, Tornado, Django-REST-framework, SQLAlchemy,
-Web, MVC, ORM, Ajax, RestFul, JSON,
-HTML/HTML5, CSS/CSS3, JavaScript/ES6/NodeJS, Babel,
-Backbone, Vue, React, AngularJS,
-NPM, Gulp, Webpack, Rollup,
-NoSQL, Redis, MongoDB,
-Fabric, Nginx, OpenResty, Lua
-
+- 其它：Linux/Prerender/Syncthing/Redis/Lua
 
 ---
 
