@@ -1,4 +1,4 @@
-# 系统/应用架构师
+# Python高级工程师/架构师
 
 专注WEB开发与集成，擅长Python/Django/Tornado，注重前端工程化、前端模块化以及前端构建，熟悉Nginx部署与配置，掌握HTTP协议、缓存技术以及网站优化。
 
@@ -18,8 +18,8 @@
  - 本科/电子商务/自学IT
  - 工作年限：4年
  - Github：http://github.com/wonderbeyond
- - 期望职位：系统架构师，应用架构师，前端架构师
- - 期望薪资：月薪25k+，特别喜欢的公司可例外
+ - 期望职位：Python高级工程师，系统架构师，应用架构师，前端架构师
+ - 期望薪资：月薪20K+，特别喜欢的公司可例外
  - 期望城市：深圳
 
 ---
@@ -130,10 +130,11 @@ PIS是我在经过长期的业务开发后，根据需要提炼出来的一个�
 - 前端工具：Sass/Less/PostCSS/Babel/NodeJS/NPM/Gulp/Webpack/Rollup
 - 数据库相关：PostgreSQL/MongoDB(NoSQL)/SQLAlchemy(ORM)/MongoEngine
 - 版本管理：Git/GitLab
-- 系统部署：Fabric/Nginx/OpenResty/Systemd/Supervisor/uWSGI
-- 其它：Linux/Prerender/Syncthing/Redis/Lua
+- 系统部署：Linux/Fabric/Nginx/OpenResty/Systemd/Supervisor/uWSGI
+- 其它：Prerender/Syncthing/Redis/Lua/SVG/D3.js
 
 ---
 
 ## 致谢
+
 感谢您花时间阅读我的简历，期待能有机会和您共事。
